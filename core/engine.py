@@ -22,6 +22,7 @@ from core.whisperx.alignment import load_align_model, align
 from core.whisperx.diarize import DiarizationPipeline, assign_word_speakers
 import torch
 from itertools import groupby
+import torch
 import numpy as np
 from moviepy.video.io.VideoFileClip import VideoFileClip
 
